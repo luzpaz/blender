@@ -529,7 +529,7 @@ function(SETUP_LIBDIRS)
 
   # NOTE: For all new libraries, use absolute library paths.
   # This should eventually be phased out.
-  # APPLE plaform uses full paths for linking libraries, and avoids link_directories.
+  # APPLE platform uses full paths for linking libraries, and avoids link_directories.
   if(NOT MSVC AND NOT APPLE)
     link_directories(${JPEG_LIBPATH} ${PNG_LIBPATH} ${ZLIB_LIBPATH} ${FREETYPE_LIBPATH})
 
@@ -794,7 +794,7 @@ macro(remove_extra_strict_flags)
 endmacro()
 
 # note, we can only append flags on a single file so we need to negate the options.
-# at the moment we cant shut up ffmpeg deprecations, so use this, but will
+# at the moment we can't shut up ffmpeg deprecations, so use this, but will
 # probably add more removals here.
 macro(remove_strict_c_flags_file
   filenames)

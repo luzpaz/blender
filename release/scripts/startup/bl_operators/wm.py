@@ -1023,7 +1023,7 @@ class WM_OT_url_open_preset(Operator):
           "Report a bug in an add-on"),
          _url_from_bug_addon),
         (('RELEASE_NOTES', "Release Notes",
-          "Read about whats new in this version of Blender"),
+          "Read about what's new in this version of Blender"),
          _url_from_release_notes),
         (('MANUAL', "Manual",
           "The reference manual for this version of Blender"),
